@@ -6,7 +6,21 @@
     <script src="/static/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
-        <a-marker preset="zach">
+        <a-marker preset="ZenMarkerOne">
+            <a-entity
+            position="0 -1 0"
+            scale="0.05 0.05 0.05"
+            gltf-model="/static/Sphere.glb"
+            ></a-entity>
+        </a-marker>
+        <a-marker preset="ZenMakerTwo">
+            <a-entity
+            position="0 -1 0"
+            scale="0.05 0.05 0.05"
+            gltf-model="/static/Circle.glb"
+            ></a-entity>
+        </a-marker>
+        <a-marker preset="ZenMakerThree">
             <a-entity
             position="0 -1 0"
             scale="0.05 0.05 0.05"

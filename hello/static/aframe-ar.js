@@ -5081,9 +5081,17 @@ AFRAME.registerComponent('arjs-anchor', {
                 markerParameters.type = _this.data.type
                 markerParameters.patternUrl = _this.data.patternUrl;
                 markerParameters.markersAreaEnabled = false
-            } else if (_this.data.preset === 'zach') {
+            } else if (_this.data.preset === 'ZenMarkerOne') {
                 markerParameters.type = 'pattern'
-                markerParameters.patternUrl = 'https://raw.githubusercontent.com/ZenMakerLabInc/AR.js/master/myApp/marker16.patt' 
+                markerParameters.patternUrl = '/static/MarkerOne.patt' 
+                markerParameters.markersAreaEnabled = false
+            }else if (_this.data.preset === 'ZenMarkerTwo') {
+                markerParameters.type = 'pattern'
+                markerParameters.patternUrl = '/static/MarkerTwo.patt' 
+                markerParameters.markersAreaEnabled = false
+            }else if (_this.data.preset === 'ZenMarkerThree') {
+                markerParameters.type = 'pattern'
+                markerParameters.patternUrl = '/static/MarkerThree.patt' 
                 markerParameters.markersAreaEnabled = false
             }
 
