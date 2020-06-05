@@ -5087,11 +5087,11 @@ AFRAME.registerComponent('arjs-anchor', {
                 markerParameters.markersAreaEnabled = false
             }else if (_this.data.preset === 'ZenMarkerTwo') {
                 markerParameters.type = 'pattern'
-                markerParameters.patternUrl = 'https://guarded-mountain-93824.herokuapp.com//static/MarkerTwo.patt' 
+                markerParameters.patternUrl = 'https://guarded-mountain-93824.herokuapp.com/static/MarkerTwo.patt' 
                 markerParameters.markersAreaEnabled = false
             }else if (_this.data.preset === 'ZenMarkerThree') {
                 markerParameters.type = 'pattern'
-                markerParameters.patternUrl = 'https://guarded-mountain-93824.herokuapp.com//static/MarkerThree.patt' 
+                markerParameters.patternUrl = 'https://guarded-mountain-93824.herokuapp.com/static/MarkerThree.patt' 
                 markerParameters.markersAreaEnabled = false
             }
 
