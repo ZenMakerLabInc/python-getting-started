@@ -6,6 +6,20 @@
     <script src="/static/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
+            <a-marker preset="hiro">
+                <a-entity
+                position="0 -1 0"
+                scale="0.05 0.05 0.05"
+                gltf-model="/static/Sphere.glb"
+                ></a-entity>
+            </a-marker>
+            <a-marker preset="kanji">
+            <a-entity
+            position="0 -1 0"
+            scale="0.05 0.05 0.05"
+            gltf-model="/static/Circle.glb"
+            ></a-entity>
+        </a-marker>
         <a-marker preset="ZenMarkerOne">
             <a-entity
             position="0 -1 0"
